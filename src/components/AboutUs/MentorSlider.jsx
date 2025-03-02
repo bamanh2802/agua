@@ -24,7 +24,7 @@ const mentors = [
     return (
       <div className="bg-white py-5 px-3">
         <div className="container text-center">
-          <h2 className="text-primary fw-bold">Mentor và Teacher</h2>
+          <h2 style={{ color: '#0074b4' }} className="text-primary fw-bold">Our Mentor</h2>
         </div>
         <div id="mentorCarousel" className="carousel slide mt-4" data-bs-ride="carousel">
           <div className="carousel-inner">
