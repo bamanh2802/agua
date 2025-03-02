@@ -25,7 +25,6 @@ const mentors = [
       <div className="bg-white py-5 px-3">
         <div className="container text-center">
           <h2 className="text-primary fw-bold">Mentor và Teacher</h2>
-          <div className="border-top border-primary w-25 mx-auto mt-2"></div>
         </div>
         <div id="mentorCarousel" className="carousel slide mt-4" data-bs-ride="carousel">
           <div className="carousel-inner">
@@ -33,7 +32,7 @@ const mentors = [
               <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
                 <div className="d-flex flex-column align-items-center text-center">
                   <img src={mentor.img} alt={mentor.name} className="rounded-circle border border-secondary" style={{ width: '100px', height: '100px' }} />
-                  <h3 className="mt-3 text-danger">{mentor.name} - {mentor.title}</h3>
+                  <h3 className="mt-3" style={{ color: '#0074b4' }}>{mentor.name} - {mentor.title}</h3>
                   <p className="text-muted fst-italic">{mentor.quote}</p>
                 </div>
               </div>
