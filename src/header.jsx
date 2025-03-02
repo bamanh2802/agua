@@ -27,7 +27,7 @@ const Header = () => {
           </div> */}
           <div className="header-item">
             <FontAwesomeIcon icon={faEnvelope} className="header-icon" />
-            <span>contact@edu.com</span>
+            <span>contact@aquaedu.com</span>
           </div>
         </div>
         <div className="header-right">

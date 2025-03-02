@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="vr"></div>
         <a href="#about">About us</a>
         <div className="vr"></div>
-        <a href="#service">Aqua story</a>
+        <a href="#service">Agua story</a>
         <div className="vr"></div>
         <a href="#portfolio">News</a>
         <div className="vr"></div>
