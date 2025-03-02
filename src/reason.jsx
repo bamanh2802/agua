@@ -89,7 +89,7 @@ const ServiceCard = ({ imgSrc, title, description }) => {
                 <p className="text-white">
                 With the mantra “Education for happy learners,” Agua champions the idea that academic excellence and personal well-being can coexist harmoniously.                </p>
                 <button className="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
-                  <a href="/">Read more</a>
+                  <a href="/aboutus">Read more</a>
                 </button>
               </div>
             </div>
