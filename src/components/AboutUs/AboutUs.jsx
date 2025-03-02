@@ -27,10 +27,12 @@ const AboutUs = () => {
             <div className="container text-center">
                 <h1 className="display-5 fw-bold">About Agua</h1>
                 <p className="mt-3 fs-5">
-                    Agua was founded with the belief that education is the foundation of development. We are committed to helping Vietnamese students access prestigious universities in Europe and realize their dream of studying abroad.
+                    Agua was founded with the belief that education is the foundation of development. We are committed to helping Vietnamese students access prestigious universities in USA and realize their dream of studying abroad.
                 </p>
             </div>
-            <div className="container mt-4">
+            <div 
+            style={{ marginTop: "84px"}}
+            className="container">
                 <div className="row g-4">
                     {cardsData.map((data, index) => (
                         <div key={index} className="">
