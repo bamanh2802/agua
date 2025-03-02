@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import BgAndNavbar from "./bgAndNavbar";
 import ServiceAndSkill from "./reason";
-import ClientFeedback from "./clientfeedback";
 import News from "./news";
 import Contact from "./contact";
 import Navbar from "./navbarHidden";
@@ -9,6 +8,7 @@ import Footer from "./footer";
 import Header from "./header";
 import AboutUs from "./components/AboutUs/AboutUs";
 import MentorSlider from "./components/AboutUs/MentorSlider";
+import ClientFeedback from "./clientFeedback";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./App.css";
