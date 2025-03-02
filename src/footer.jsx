@@ -1,10 +1,13 @@
 import React from "react";
 import "./footer.css"; // Import CSS nếu có
+import logo from "./assets/AGUA Logo_Color.png";
+
 
 const Footer = () => {
   return (
     <footer className="text-center text-muted py-4">
-      <h3 className="text-white pt-4" data-aos="fade-up">AGUA</h3>
+      <img src={logo} alt="Logo" width="170" />
+
 
       {/* Link nhóm */}
       <div className="link-group mt-5" data-aos="fade-up">
