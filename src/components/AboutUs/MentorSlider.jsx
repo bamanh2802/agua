@@ -1,22 +1,22 @@
 const mentors = [
     {
       img: "https://cdn1.iconfinder.com/data/icons/business-avatar-circle/64/26_avatar_people_business_businesswoman_woman_female_long_hair-512.png",
-      name: "Mrs. Thi Hoang",
-      title: "Cố vấn học bổng",
+      name: "Ms. Thi Hoang",
+      title: "Mentor",
       quote:
-        '"Education is our passport to the future, for tomorrow belongs only to the people who prepare for it today." - Malcolm X',
+        '"I believe it is important to give everyone the opportunity to explore all the possibilities: you are capable of more than you might think',
     },
     {
       img: "https://cdn1.iconfinder.com/data/icons/business-avatar-circle/64/26_avatar_people_business_businesswoman_woman_female_long_hair-512.png",
-      name: "Mr. John Doe",
-      title: "Chuyên gia giáo dục",
-      quote: '"Knowledge is power. Invest in yourself." - Unknown',
+      name: "Ms. Xuan (Rachel) Nguyen",
+      title: "Mentor",
+      quote: '"I brought my insights from the time abroad to inspire and hopefully improve those who need me',
     },
     {
       img: "https://cdn1.iconfinder.com/data/icons/business-avatar-circle/64/26_avatar_people_business_businesswoman_woman_female_long_hair-512.png",
-      name: "Ms. Jane Smith",
-      title: "Cố vấn du học",
-      quote: '"The beautiful thing about learning is that no one can take it away from you." - B.B. King',
+      name: "Ms. Tuongvan Le ",
+      title: "Mentor",
+      quote: '"I’ve always been a curious person. When I started college, I wondered: What would my life have been like if I had grown up in Vietnam? The best way to find out was to meet peers my age who had.',
     },
   ];
   
