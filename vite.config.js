@@ -1,14 +1,10 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
+  plugins: [react()],
+  base: "/", // Đảm bảo Vercel nhận diện đúng route
   server: {
-    host: '0.0.0.0', // Lắng nghe từ tất cả IP
-    port: 80, // Chạy trên cổng 80
-    strictPort: true, // Đảm bảo dùng đúng cổng
-    cors: true, // Cho phép truy cập từ các nguồn khác
+    historyApiFallback: true, // Để xử lý các route trong SPA
   },
-  preview: {
-    host: '0.0.0.0',
-    port: 80
-  }
 });
